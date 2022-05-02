@@ -29,7 +29,7 @@ import {BrowserRouter, Link, Switch, Route} from 'react-router-dom';
 class App extends Component {
   render(){
     return (<BrowserRouter>
-    <div>
+    <div style={{color:"red"}}>
       <Link to="/login">Login</Link>
       <br/>
       <Link to="/functional-test">FunctionalTest</Link>
